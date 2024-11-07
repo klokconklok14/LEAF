@@ -12,12 +12,93 @@
 					otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/klokconklok14/LEAF/main/LEAF%20Files%20for%20Students/18-Cades.xml?place_annotation_20241107144509062",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-07T19:45:09.062Z",
+	"dcterms:modified": "2024-11-07T19:45:09.062Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/klokconklok14",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "dariel hilario"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/klokconklok14/LEAF/main/LEAF%20Files%20for%20Students/18-Cades.xml?place_annotation_20241107144509062#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/klokconklok14/LEAF/main/LEAF%20Files%20for%20Students/18-Cades.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/klokconklok14/LEAF/main/LEAF%20Files%20for%20Students/18-Cades.xml?place_annotation_20241107144509062#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/6439169442793225340000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/18-Cades-Ort-1.jpg"/>
 			<div>
-				<head>Replace with your title.</head><head>The Spagniards call at this prefent this He Cediz &amp; Corropdy it is called Caliz. It is as denydedinto two partes, &amp; to feemeth two lies. In the leffer is now the Citie of Cales, &amp; in the greater was Iulie Gaditame Angufla, which as Sirabe faith, was called Naples. The Cities of Cales is now a Bifhops fea. By molfe auncient authors it appeereth that this He was found out by the Pbenitians, &amp; others hold that after them the Geryons inhabited heere, whofe cattel was taken away by Hercules. In this He was a semple of this Hercules, which for the founder &amp; for Antiquitie, religion, &amp; riches, was very famous. This church faith Mela is become holy becaufe the bones Hercules are here buried. In the Temple of Hercules Ciafar did behold the picture of Alexander the Great, as Swaton telleth vs. There was a well which atful fea yeilded falt water, and at the ebbe frefh. Sundry temples the pagans buylded in this He, as a temple of Jupiter, a temple of Lane, a temple Saturane, a temple of old age, &amp; a temple of death. In thefe temples alters were erected to the Gods of the yeare, to monethly Gods, &amp; to Arte &amp; pouertie . The inhabitants of this prouince did in tymes paft excel in navigation , &amp; they do not now degenerate from their ancestors. Their chief comodities rife of falt,&amp; fifh. This was the laft he knowne in the world, as antiquitie believed. And there (they faid) the Sunne beeing weeried with running his dayly race defcended into the Ocean fea, &amp; rooke reft, &amp; therefore this he is of Seatins called the Sunnes bed. </head>
+				<head>Replace with your title.</head><head>The Spagniards call at this prefent this He Cediz &amp; Corropdy it is called Caliz. It is as denydedinto two partes, &amp; to feemeth two lies. In the leffer is now the Citie of Cales, &amp; in the greater was Iulie Gaditame Angufla, which as Sirabe faith, was called <placeName key="Italy Naples Via Carminiello ai Mannesi" ref="http://viaf.org/viaf/6439169442793225340000/" cert="high">Naples<precision match="@ref" precision="high"/></placeName>. The Cities of Cales is now a Bifhops fea. By molfe auncient authors it appeereth that this He was found out by the Pbenitians, &amp; others hold that after them the Geryons inhabited heere, whofe cattel was taken away by Hercules. In this He was a semple of this Hercules, which for the founder &amp; for Antiquitie, religion, &amp; riches, was very famous. This church faith Mela is become holy becaufe the bones Hercules are here buried. In the Temple of Hercules Ciafar did behold the picture of Alexander the Great, as Swaton telleth vs. There was a well which atful fea yeilded falt water, and at the ebbe frefh. Sundry temples the pagans buylded in this He, as a temple of Jupiter, a temple of Lane, a temple Saturane, a temple of old age, &amp; a temple of death. In thefe temples alters were erected to the Gods of the yeare, to monethly Gods, &amp; to Arte &amp; pouertie . The inhabitants of this prouince did in tymes paft excel in navigation , &amp; they do not now degenerate from their ancestors. Their chief comodities rife of falt,&amp; fifh. This was the laft he knowne in the world, as antiquitie believed. And there (they faid) the Sunne beeing weeried with running his dayly race defcended into the Ocean fea, &amp; rooke reft, &amp; therefore this he is of Seatins called the Sunnes bed. </head>
 				<p/></div>
 		</body>
 	</text>
